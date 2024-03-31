@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	
+    <title>Phanindra Dokku</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Favicon -->
+    <link rel="icon" href="images/phanifavi.jpg", type="image/x-icon">
+  
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet"  >
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+	<link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	
+<style>
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+.typewrite{
+  color: #f711e3;
+  font-family:serif;
+  text-decoration: underline;
+}
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+#home-section{
+  background: url('../images/background-image.jpg')  no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  background-color: rgb(8, 8, 44);
+  height:130vh;
+}
+
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+.nav-link:hover{
+  color:lightgreen !important
+}
+
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-primary ftco_navbar ftco-navbar-light site-navbar-target"  id="ftco-navbar">
+	    <div class="container"> 
+	      <a class="navbar-brand " href="index.html">Phanindra Dokku</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+			  <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+			  <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+			  <li class="nav-item"><a href="#certification-section" class="nav-link"><span>Certifications</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_home.jpg);">
+	          	 <div class="overlay"></div>
+	          	</div>
+		        <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+						<h3 style="margin-top:20px; margin-bottom: 20px;">Hello, I'm </h3>
+						<h2 style="color: rgb(54, 206, 17); font-weight: bolder; font-size: 40px; font-family:Poppins;">PHANINDRA</h2>
+						<h2>Full Stack Java Developer</h2>
+						<h2>
+							<a href="" class="typewrite" data-period="500" 
+							data-type='[ "Java 8/10/11", "Spring Boot", "MongoDB/MySQL", "React JS", "Hibernate", "Spring Security" ]'>
+							<span class="wrap"></span>
+							</a>
+						</h2>		
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<br>
+			            <p><a href="https://www.linkedin.com/in/phanindra-dokku-909734186/" target="_blank" class="btn btn-primary py-3 px-4">LinkedIn</a> 
+						   <a href="https://github.com/Phanindra56" target="_blank" class="btn btn-success btn-outline-white py-3 px-4">Github</a>
+						   <a href="https://leetcode.com/Phanindra56/" target="_blank" class="btn btn-white btn-outline-white py-3 px-4">LeetCode</a>
+						</p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb pt-3" id="about-section">
+    	<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">About</h1>
+				  <h2 class="mb-4">About Me</h2>
+			  </div>
+		  </div>
+			<div class="row">
+
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-5 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Phanindra Dokku</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Full Stack Java Developer</span></p>
+										<p><span class="title-s">Experience: </span> <span>2 Years 2 Months</span></p>
+										<p><span class="title-s">Address: </span> <span>Kansas, USA</span></p>
+									  </div>
+									</div>
+								  </div>
+								<br><br>
+								<div class="skill-mf">
+									<p>Experienced Full Stack Java Developer with 2+ years of expertise in Java 8/11, Spring, React, SQL, and NoSQL databases using AWS services. Proficient in writing efficient code, enhancing technical architecture, and resolving bugs for optimal user experience. Skilled in Agile-Scrum methodology, leveraging CI/CD pipelines, Jenkins, and containerization for project delivery. Demonstrated success in leading impactful projects and providing effective mentorship.</p>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-7 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">						
+								<ul class="about-info mt-4 px-md-2 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Java Full Stack Developer</span></li>
+									<li class="d-flex"><span>Domain:</span> <span>Ecommerce &amp; BFSI </span></li>
+									<li class="d-flex"><span>Education:</span> <span>Master of Science</span></li>
+									<li class="d-flex"><span>Language:</span> <span>Java, Python, C</span></li>
+									<li class="d-flex"><span>Frameworks:</span> <span>J2EE, Spring Boot, React</span></li>
+									<li class="d-flex"><span>Cloud &amp; Devops:</span><span>AWS, Jenkins, Docker</span></li>
+									<li class="d-flex"><span>Databases:</span> <span>MySQL, MongoDB</span></li>
+									<li class="d-flex"><span>Web Development:</span> <span>HTML, CSS, Bootstrap</span></li>									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="7">0</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/phanindra-dokku-909734186/" target="_blank" class="btn btn-danger py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+	<section id="skills-section" class="pt-3" style="background-color: rgba(3, 31, 5, 0.692);">
+		<div class="container">
+    		<div class="row justify-content-center pb-5">
+          		<div class="col-md-10 heading-section text-center ftco-animate">
+          			<h1 class="big big-2">Skills</h1>
+            		<h2 class="mb-4">Skills</h2>
+				</div>
+			</div>
+			<div class="row">
+			<div class=col-md-6>
+				<div class="skill-mf">
+					<p class="title-s">Skills</p>
+					<span>Java 8/10/11</span> <span class="pull-right">85%</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+					
+					<span>Spring Boot</span> <span class="pull-right">70%</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+					
+					<span>React</span> <span class="pull-right">80%</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+					
+					<span>MicroServices</span> <span class="pull-right">70%</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+					
+					<span>MySQL/MongoDB</span> <span class="pull-right">80%</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+
+					<span>Spring Security</span> <span class="pull-right">70%</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+					
+					<span>AWS</span> <span class="pull-right">80%</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+
+					<span>Kafka</span> <span class="pull-right">70%</span>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+							aria-valuemax="100"></div>
+					</div>
+		
+				</div>
+		   </div>
+		   <div class=col-md-6>
+			<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/skills.jpg);">
+				<div class="overlay"></div>
+			   </div>
+		
+			</div>
+		</div>
+		   
+
+		  </div>
+  
+		</div>
+		<br><br>
+	  </section>
+
+
+	
+    <section class="ftco-section ftco-no-pb pt-3" id="resume-section" style="background-color: #250122;">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Experienced Full Stack Java Developer with 2+ years of expertise in Java 8/11, Spring, React, SQL, and NoSQL databases using AWS services. Proficient in writing efficient code, enhancing technical architecture, and resolving bugs for optimal user experience.</p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2019-2020</span>
+						<h2>Software Engineer Intern</h2>
+						<span class="position">Accolite Digital</span>
+						<p class="mt-4">Accolite Digital is a software company that offers data, AI, cloud, DevOps, cyber security, and UX design solutions. 
+							<ul>
+								<li>Optimized feeds, reducing the total processing time from 12 hours to 6 hours, improving overall operational efficiency.</li>
+								<li>Developed a feed system, incorporating Spring Boot and SQL, that generates weekly reports for users.</li>
+								<li>Actively participated in TDD to create robust and reliable code, with a focus on comprehensive unit tests using JUnit.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2020-2022</span>
+						<h2>Associate Java Developer</h2>
+						<span class="position">DXC Technology</span>
+						<p class="mt-4">DXC Technology Company is an American multinational information technology services and consulting company.  
+							<ul>
+								<li>Implemented Spring Boot for the backend, React for the frontend, and emphasizing a secure &amp; scalable backend system through Microservices architecture.</li>
+								<li>Achieved successful implementation of Spring Gateway, Eureka for service discovery, Spring Security, and OAuth/JWT for system security.</li>
+								<li>Utilized Kafka for event-driven updates from other systems, accelerating data processing.</li>
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2016-2020</span>
+    					<h2>Bachelor of Technology</h2>
+    					<span class="position">SRKR Engineering College, Bhimavaram, India</span>
+    					<p class="mt-4">Grade: 3.80</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2022-2023</span>
+    					<h2>Master of Science</h2>
+    					<span class="position">University of Central Missouri, MO, USA</span>
+    					<p class="mt-4">Grade: 3.71.</p>
+    				</div>
+				</div>
+    		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/1VRVuarex6VioRiLJukLkhBJfIXQhe_Rm/view?usp=drive_link" target="_blank" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+		<br><br>
+    </section>
+
+   
+
+    <section class="ftco-section pt-3" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are projects that I worked over the past 4 years.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry">
+				<a href="https://main--phanindracalculator.netlify.app/" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/calculator.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a target="_blank" href="https://main--phanindracalculator.netlify.app/">Calculator using React and Bootstrap</a></h3>
+				  <p>A React calculator app with a user-friendly interface for basic arithmetic operations, dynamically updating results as users input numbers and operators. Built using React's component-based architecture and state management for a responsive and efficient user experience.</p>
+				</div>
+			  </div>
+			</div>
+          	<div class="col-md-4 d-flex ftco-animate">
+          		<div class="blog-entry justify-content-end">
+              		<a href="https://github.com/Phanindra56/Grocery-Management-System" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/grocery.png');">
+              		</a>
+              	<div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/Phanindra56/Grocery-Management-System" target="_blank">Grocery-Management-System using Java, Spring Boot, MySQL</a></h3>
+                <p>Grocery Management Application is a straight forward web application that helps users manage their groceries from a store. It features a minimalistic user interface built with React, allowing users to create, edit, and delete groceries effortlessly. The backend is powered by Spring Boot, providing secure authentication using Spring Security and JWT tokens.</p>
+            	</div>
+            	</div>
+          	</div>
+
+          	<div class="col-md-4 d-flex ftco-animate">
+          		<div class="blog-entry justify-content-end">
+              	<a href="https://github.com/Phanindra56/Canteen-Management-System" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/canteen.png');">
+              	</a>
+              	<div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a target="_blank" href="https://github.com/Phanindra56/Canteen-Management-System">Canteen-Management-System using Python, MongoDB, Flask, HTML, Bootstrap</a></h3>
+                <p>The canteen management system made with Python Flask and MongoDB helps canteens or cafeterias run smoothly. It lets people order food, pay for it, and keeps track of what's available.</p>
+              	</div>
+            	</div>
+          	</div>         
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Phanindra56/Movie-Flix" class="block-20 zoom-effect" style="background-image: url('images/movie.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Phanindra56/Movie-Flix">Movie-Flix using Java, MongoDB, CSS</a></h3>
+				  <p>The "Movie-flix" project is a platform built with Java, JSP, MongoDB, HTML5, CSS, and Bootstrap for streaming movies online.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a href="https://github.com/Phanindra56/Simple-Counter-using-React" class="block-20 zoom-effect" style="background-image: url('images/counter.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/Phanindra56/Simple-Counter-using-React">Simple Counter using React</a></h3>
+				  <p>The Counter App is a simple web application built with ReactJS that allows users to increment and decrement a counter.
+				</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="5">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="7">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="7">0</strong>
+                <span>Years of exploring technology</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.JPG) ;">
+			<div class="container">
+				<div class="row">
+				<div col-md-4 style="background-color: rgba(0, 0, 0, 0.13); width: 50%;">
+					<div class="col-md-12 ftco-animate text-center">
+						<h2 style="color: black; text-decoration-line: underline;">More projects on<span style="color: darkblue;"> Github  </span> </h2>
+						<div class="heading"> <h4 style="color: rgb(19, 17, 17); font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bolder; "> 
+							I enjoy resolving business challenges and uncovering concealed narratives of growth and evolution.</h4>
+						<br>
+						<p><a href="https://github.com/Phanindra56" target="_blank" class="btn btn-info py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="certification-section" class="pt-3" style="background-color: rgba(17, 3, 70, 0.692);">
+		<div class="container">
+    		<div class="row justify-content-center pb-5">
+          		<div class="col-md-10 heading-section text-center ftco-animate">
+          			<h1 class="big big-2">Certifications</h1>
+            		<h2 class="mb-4">Certifications</h2>
+				</div>
+			</div>
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+				<div class="accordion-item">
+				  <h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+					  AWS Cloud Practitioner (issued 23 March 2024)
+					</button>
+				  </h2>
+				  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<a class="btn btn-info" href="https://www.credly.com/badges/267f8bc2-912a-4b58-83dd-0f1ac107464c/linked_in_profile" target="_blank">AWS</a>
+						<div id="carouselExampleIndicators" class="carousel slide">
+							<div class="carousel-indicators">
+							  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							</div>
+							<div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="true"style = "carousel-dark-indicator-active-bg:black;">
+							<div class="carousel-inner">
+									<div class="carousel-item active" data-bs-interval="1000">
+										<img src="images/001.jpg" class="d-block w-100" alt="...">
+										<div class="carousel-caption d-none d-md-block">
+											<h5 class="text-on-pic">AWS Certificate</h5>
+										</div>
+									</div>
+									<div class="carousel-item" data-bs-interval="1000">
+										<img src="images/002.jpg" class="d-block w-100" alt="...">
+										<div class="carousel-caption d-none d-md-block">
+											<h5 class="text-on-pic">AWS Scorecard</h5>
+										</div>
+									</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				  </div>
+				</div>
+			
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+						Spring Boot 3 and Spring Framework 6 (issued 29 March 2024)
+					  </button>
+					</h2>
+					<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+					  <div class="accordion-body">
+						  <a class="btn btn-info" href="http://ude.my/UC-3d6f9900-56bf-4114-860a-bf07e477b6c9" target="_blank">Udemy Spring Boot</a>
+						  <div id="carouselExampleIndicators" class="carousel slide">
+							  <div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							  </div>
+							  <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="true"style = "carousel-dark-indicator-active-bg:black;">
+							  <div class="carousel-inner">
+									  <div class="carousel-item active" data-bs-interval="1000">
+										  <img src="images/003.jpg" class="d-block w-100" alt="...">
+										  <div class="carousel-caption d-none d-md-block">
+											  <h5 class="text-on-pic">Spring Boot 3 &amp; Spring Framework 6</h5>
+										  </div>
+									  </div>
+							  </div>
+							  </div>
+						  </div>
+					  </div>
+					</div>
+				  </div>
+			
+				  <div class="accordion-item">
+					<h2 class="accordion-header">
+					  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+						NPTEL R Software (issued September 2018)
+					  </button>
+					</h2>
+					<div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+					  <div class="accordion-body">
+						  <div id="carouselExampleIndicators" class="carousel slide">
+							  <div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							  </div>
+							  <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="true"style = "carousel-dark-indicator-active-bg:black;">
+							  <div class="carousel-inner">
+									  <div class="carousel-item active" data-bs-interval="1000">
+										  <img src="images/004.jpg" class="d-block w-100" alt="...">
+										  <div class="carousel-caption d-none d-md-block">
+											  <h5 class="text-on-pic">NPTEL R Software Certificate</h5>
+										  </div>
+									  </div>
+							  </div>
+							  </div>
+						  </div>
+					  </div>
+					</div>
+				  </div>
+
+
+			</div>
+		</div>	
+
+		<br><br><br>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb pt-3" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact</h2>
+			<br>
+			<br>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-3 pt-1">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Kansas City, USA</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://9132384032">+ 1 (913)-703 7869</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">phanindradokku@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="https://drive.google.com/file/d/1VRVuarex6VioRiLJukLkhBJfIXQhe_Rm/view?usp=drive_link" target="_blank">Phanindra Dokku</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a target="_blank" href="https://forms.gle/srdeJ9Kuzr86TVbd8" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/phanindra-dokku-909734186/" target="_blank"><span class="icon-linkedin"></span></a></li>  
+					  <li class="ftco-animate"><a href="https://twitter.com/phanindra673" target="_blank"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.facebook.com/phanindra.unique.1/" target="_blank"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com/phanindra_9/" target="_blank"><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
+  <script>
+    var TxtType = function(el, toRotate, period) {
+      this.toRotate = toRotate;
+      this.el = el;
+      this.loopNum = 0;
+      this.period = parseInt(period, 10) || 100;
+      this.txt = '';
+      this.tick();
+      this.isDeleting = false;
+  };
+
+  TxtType.prototype.tick = function() {
+      var i = this.loopNum % this.toRotate.length;
+      var fullTxt = this.toRotate[i];
+
+      if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+      } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+      }
+
+      this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+      var that = this;
+      var delta = 100 - Math.random() * 10;
+
+      if (this.isDeleting) { delta /= 2; }
+
+      if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+      } else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+      }
+
+      setTimeout(function() {
+      that.tick();
+      }, delta);
+  };
+
+  window.onload = function() {
+      var elements = document.getElementsByClassName('typewrite');
+      for (var i=0; i<elements.length; i++) {
+          var toRotate = elements[i].getAttribute('data-type');
+          var period = elements[i].getAttribute('data-period');
+          if (toRotate) {
+            new TxtType(elements[i], JSON.parse(toRotate), period);
+          }
+      }
+      // INJECT CSS
+      var css = document.createElement("style");
+      css.type = "text/css";
+      css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+      document.body.appendChild(css);
+  };
+  </script>
+
+</body>
+
+</html>
